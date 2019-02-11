@@ -45,7 +45,7 @@ public class Sampleclass
 			driver.findElement(By.xpath("//*[@id='main-content']/div/div[2]/div[1]/div/div/div/form/div/div[2]")).click();
 			//s.click("branddd.png");
 			Thread.sleep(2000);
-		
+			// Dropdown
 			Select dd= new Select(driver.findElement(By.xpath("//select[@id='AddOrganizationSelect']")));
 			Thread.sleep(2000);
 			dd.selectByVisibleText("Raviii");
